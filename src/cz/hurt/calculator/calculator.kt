@@ -2,16 +2,17 @@ package OO
 
 import kotlin.random.Random
 
-fun main() {
-    val x: Long = Random.nextLong()
-    val y: Long = Random.nextLong()
+fun main(args: Array<String>) {
+    var x: Long = args.get(0).toLong();
+    var y: Long = args.get(1).toLong();
+
     println(x)
     println(y)
 
-    println(add(x,y))
-    println(sub(x,y))
-    println(mult(x,y))
-    println(div(x,y))
+    println(add(x, y))
+    println(sub(x, y))
+    println(mult(x, y))
+    println(div(x, y))
 }
 
 fun add(x: Long, y: Long): Long {
