@@ -24,7 +24,7 @@ fun main(args:Array<String>){
         println("4. Division")
         println("5. Quit")
 
-        print("Enter your choice: ")
+        print("Enter your choice:  ")
         val ch = readLine()
 
         println()
